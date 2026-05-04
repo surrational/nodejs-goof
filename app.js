@@ -29,7 +29,7 @@ var app = express();
 var routes = require('./routes');
 var routesUsers = require('./routes/users.js')
 
-// all environments
+// all environments test
 app.set('port', process.env.PORT || 3001);
 app.engine('ejs', ejsEngine);
 app.engine('dust', cons.dust);
